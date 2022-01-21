@@ -1,0 +1,14 @@
+sudo ~/mininet/examples/miniedit.py
+
+sudo mn -c; clear; sudo python projeto_rede.py
+
+sudo pkill -9 python; clear; cd ~/pox; python pox.py --verbose projeto_controlador openflow.discovery host_tracker py log --no-default --file=/tmp/mylog.log
+
+ubuntu@192.168.56.102/home/ubuntu/
+
+dpctl dump-flows
+
+dpctl del-flows
+
+tcpdump -i any icmp
+
